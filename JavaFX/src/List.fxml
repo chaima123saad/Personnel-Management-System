@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="349.0" prefWidth="443.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ListePersonnesController">
+   <HBox prefHeight="34.0" prefWidth="200.0" style="-fx-background-color: #6a95eb79;">
+      <children>
+         <Label prefHeight="37.0" prefWidth="119.0" text="Liste Personnes">
+            <HBox.margin>
+               <Insets left="15.0" />
+            </HBox.margin>
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Label>
+      </children>
+   </HBox>
+    <ListView fx:id="personnesListView" prefHeight="300.0" prefWidth="443.0">
+      <VBox.margin>
+         <Insets top="15.0" />
+      </VBox.margin></ListView>
+</VBox>

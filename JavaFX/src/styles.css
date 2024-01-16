@@ -1,8 +1,4 @@
-.button {
-    -fx-background-color: #4CAF50; /* Green */
-    -fx-text-fill: white;
-    -fx-font-size: 14px;
-}
+
 .label-style {
     -fx-font-size: 15px;
     -fx-text-fill: #333333;
@@ -22,3 +18,33 @@
     -fx-background-color: #336699;
     -fx-text-fill: white;
 }
+/* styles.css */
+
+/* Apply styles to the root of the application */
+.root {
+    -fx-background-color: #f4f4f4;
+}
+
+/* Apply styles to the sidebar */
+.sidebar {
+    -fx-background-color: #1048b8; /* Sidebar background color */
+    -fx-padding: 10px; /* Add padding to the sidebar */
+}
+
+/* Apply styles to buttons in the sidebar */
+.sidebar-button {
+    -fx-font-size: 14px;
+    -fx-text-fill: white; /* Text color for buttons */
+    -fx-background-color: #75a3ff7e; /* Button background color */
+    -fx-padding: 8px 15px; /* Add padding to the buttons */
+    -fx-border-width: 0; /* Remove button border */
+}
+
+/* Apply styles to ListView in the main content area */
+.list-view {
+    -fx-background-color: white; /* Background color for the ListView */
+    -fx-border-width: 1; /* Add a border around the ListView */
+    -fx-border-color: #ccc; /* Border color */
+}
+
+/* Customize more styles as needed for your specific application */

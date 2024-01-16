@@ -1,24 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DeleteSceneController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="349.0" prefWidth="443.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DeleteSceneController">
    <children>
-      <Label layoutX="210.0" layoutY="49.0" text="Delete Personne" textFill="#000000f0">
-         <font>
-            <Font size="18.0" />
-         </font>
-      </Label>
-      <Label layoutX="94.0" layoutY="144.0" text="CIN :">
+      <Label layoutX="53.0" layoutY="127.0" text="CIN :">
          <font>
             <Font size="15.0" />
          </font>
       </Label>
-      <TextField fx:id="CIN" layoutX="212.0" layoutY="141.0" prefHeight="25.0" prefWidth="243.0" />
-      <Button layoutX="211.0" layoutY="271.0" mnemonicParsing="false" onAction="#deletePersonne" text="Delete" />
+      <TextField fx:id="CIN" layoutX="100.0" layoutY="125.0" prefHeight="25.0" prefWidth="204.0" />
+      <Button layoutX="100.0" layoutY="168.0" mnemonicParsing="false" onAction="#deletePersonne" prefHeight="25.0" prefWidth="204.0" style="-fx-background-color: #6a95eb79;" text="Delete" />
+      <HBox prefHeight="34.0" prefWidth="443.0" style="-fx-background-color: #6a95eb79;">
+         <children>
+            <Label prefHeight="33.0" prefWidth="171.0" text="Delete Personne" textFill="#000000f0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <padding>
+                  <Insets left="15.0" />
+               </padding>
+            </Label>
+         </children>
+      </HBox>
    </children>
 </AnchorPane>
