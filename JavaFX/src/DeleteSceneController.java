@@ -18,6 +18,7 @@ public class DeleteSceneController {
             personneDAO.delete(Cin);
 
             showSuccessMessage("Personne supprimée avec succès!");
+            CIN.setText(null);
 
         } catch (Exception e) {
             e.printStackTrace();

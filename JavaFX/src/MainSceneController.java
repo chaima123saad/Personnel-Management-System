@@ -35,6 +35,11 @@ public class MainSceneController {
                 personneDAO.add(personne);
                 // Show a success alert
                 showAlert("Succès", "Personne ajoutée avec succès!", Alert.AlertType.INFORMATION);
+                nom.setText(null);
+                prenom.setText(null);
+                CIN.setText(null);
+                civilite.setText(null);
+
             } catch (Exception e) {
                 // Show an error alert
                 showAlert("Erreur", "Personne déjà existante", Alert.AlertType.ERROR);

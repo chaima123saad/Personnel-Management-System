@@ -2,26 +2,27 @@
 
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox prefHeight="349.0" prefWidth="443.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ListePersonnesController">
-   <HBox prefHeight="34.0" prefWidth="200.0" style="-fx-background-color: #6a95eb79;">
+<VBox maxWidth="443.0" prefHeight="349.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ListePersonnesController">
+   <HBox maxHeight="34.0" prefHeight="34.0" prefWidth="443.0" style="-fx-background-color: #6a95eb79;">
       <children>
-         <Label prefHeight="37.0" prefWidth="119.0" text="Liste Personnes">
-            <HBox.margin>
-               <Insets left="15.0" />
-            </HBox.margin>
+         <Label graphicTextGap="10.0" lineSpacing="4.0" prefHeight="34.0" prefWidth="112.0" text="Liste Personnes">
             <font>
-               <Font size="14.0" />
+               <Font name="Verdana" size="14.0" />
             </font>
+            <HBox.margin>
+               <Insets left="20.0" />
+            </HBox.margin>
          </Label>
       </children>
    </HBox>
-    <ListView fx:id="personnesListView" prefHeight="300.0" prefWidth="443.0">
+    <TableView fx:id="personnesTableView" prefHeight="250.0" prefWidth="443.0" style="-fx-background-color: #75a3ff7e;" VBox.vgrow="ALWAYS">
       <VBox.margin>
-         <Insets top="15.0" />
-      </VBox.margin></ListView>
+         <Insets bottom="15.0" left="20.0" right="20.0" top="15.0" />
+      </VBox.margin>
+   </TableView>
 </VBox>

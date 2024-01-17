@@ -37,15 +37,18 @@
       <Button layoutX="133.0" layoutY="271.0" mnemonicParsing="false" onAction="#updatePersonne" prefHeight="25.0" prefWidth="243.0" style="-fx-background-color: #6a95eb79;" text="Update" />
       <HBox prefHeight="34.0" prefWidth="443.0" style="-fx-background-color: #6a95eb79;">
          <children>
-            <Label prefHeight="34.0" prefWidth="122.0" text="Update Personne" textFill="#000000f0">
+            <Label prefHeight="34.0" prefWidth="165.0" text="Update Personne" textFill="#000000f0">
                <font>
-                  <Font size="14.0" />
+                  <Font name="Verdana" size="14.0" />
                </font>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <padding>
+                  <Insets left="20.0" />
+               </padding>
             </Label>
          </children>
-         <padding>
-            <Insets left="15.0" />
-         </padding>
       </HBox>
    </children>
 </AnchorPane>

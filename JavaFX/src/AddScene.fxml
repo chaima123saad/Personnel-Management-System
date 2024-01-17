@@ -40,11 +40,11 @@
          <children>
             <Label prefHeight="34.0" prefWidth="166.0" text="Ajouter Personne " textFill="#000000f0" textOverrun="LEADING_ELLIPSIS">
                <font>
-                  <Font size="14.0" />
+                  <Font name="Verdana" size="14.0" />
                </font>
-               <padding>
-                  <Insets left="15.0" />
-               </padding>
+               <HBox.margin>
+                  <Insets left="20.0" />
+               </HBox.margin>
             </Label>
          </children>
       </HBox>

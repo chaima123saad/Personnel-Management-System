@@ -23,14 +23,17 @@
                <Insets bottom="20.0" left="25.0" top="10.0" />
             </VBox.margin>
          </ImageView>
-            <Button mnemonicParsing="false" onAction="#openListePersonnesScene" prefHeight="36.0" prefWidth="140.0" styleClass="sidebar-button" text="Liste Personnes" >
+            <Button mnemonicParsing="false" onAction="#openListePersonnesScene" prefHeight="36.0" prefWidth="140.0" styleClass="sidebar-button" text="Liste Personnes">
             <VBox.margin>
                <Insets bottom="10.0" />
             </VBox.margin></Button>
             <Button mnemonicParsing="false" onAction="#openAddScene" prefHeight="36.0" prefWidth="140.0" styleClass="sidebar-button" text="Add Personne">
             <VBox.margin>
                <Insets bottom="10.0" />
-            </VBox.margin></Button>
+            </VBox.margin>
+            <font>
+               <Font name="Verdana" size="12.0" />
+            </font></Button>
             <Button mnemonicParsing="false" onAction="#openDeleteScene" prefHeight="36.0" prefWidth="140.0" styleClass="sidebar-button" text="Delete Personne">
             <VBox.margin>
                <Insets bottom="10.0" />
@@ -42,9 +45,9 @@
         </VBox>
       <HBox layoutX="157.0" prefHeight="51.0" prefWidth="443.0" style="-fx-background-color: #6E6DE2;">
          <children>
-            <Label graphicTextGap="10.0" prefHeight="51.0" prefWidth="274.0" text="    Personnel Management System" textFill="WHITE">
+            <Label graphicTextGap="10.0" prefHeight="51.0" prefWidth="348.0" text="    Personnel Management System" textFill="WHITE">
                <font>
-                  <Font size="16.0" />
+                  <Font name="Verdana" size="16.0" />
                </font>
             </Label>
          </children>

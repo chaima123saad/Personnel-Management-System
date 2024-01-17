@@ -31,6 +31,10 @@ public class UpdateSceneController {
             personneDAO.update(updatedPersonne);
 
             showSuccessMessage("Personne mise à jour avec succès!");
+            nom.setText(null);
+            prenom.setText(null);
+            CIN.setText(null);
+            civilite.setText(null);
 
         } catch (Exception e) {
             e.printStackTrace();

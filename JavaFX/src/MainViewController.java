@@ -11,6 +11,12 @@ public class MainViewController {
     private Pane contentPane;
 
     @FXML
+    public void initialize() {
+        // Set the default content to "Liste Personnes" scene
+        openListePersonnesScene();
+    }
+
+    @FXML
     void openAddScene() {
         loadFXML("AddScene.fxml");
     }
